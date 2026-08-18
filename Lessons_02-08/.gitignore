@@ -1,0 +1,24 @@
+# Virtual environment
+# specs/tech-stack.md requires a venv for all Python work
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Secrets and local model/server config
+.env
+.env.local
+
+# IDEs
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+**/.DS_Store
+Thumbs.db
